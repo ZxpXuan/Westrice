@@ -1,0 +1,260 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_0
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/2DPlatformController/2DVersion/Scripts/Animators/AnimationLogger2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Animators/HeroAnimator2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Animators/Unity2DSpriteAnimator2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/ExtraFeatures/Collectable2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/ExtraFeatures/EnemyPatrol2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/ExtraFeatures/HitBox2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/ExtraFeatures/KillBox2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/ExtraFeatures/RespawnPoint2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/ExtraFeatures/SimpleHealth2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/BackAndForthPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/Brick2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/DecayingPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/FallingPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/Ladders/Ladder2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/Ladders/LadderCollider2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/Ladders/LadderControl2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/Ladders/TopStepPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/PassthroughPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/SlidingPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/SlipperyPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/SpringboardPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/UnBreakableBrick2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Platforms/UpAndDownPlatform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Plugins/Box2DExtension.cs
+Assets/2DPlatformController/2DVersion/Scripts/Plugins/DirectionChecker2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Plugins/Platform2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Plugins/RaycastCharacterController2D.cs
+Assets/2DPlatformController/2DVersion/Scripts/Plugins/SetUpPhysics2D.cs
+Assets/2DPlatformController/Scripts/Animators/AnimationBridge.cs
+Assets/2DPlatformController/Scripts/Animators/AnimationLogger.cs
+Assets/2DPlatformController/Scripts/Animators/HeroAnimator.cs
+Assets/2DPlatformController/Scripts/Animators/ModelAnimator.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/CameraFollow.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Collectable.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Enemies/EnemyAIController.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Enemies/EnemyBounceAndFall.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Enemies/EnemyBounceAndFallInput.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Enemies/EnemyPatrol.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Enemies/IEnemy.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Enemies/JumpOnHead.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/FallDamage.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Float.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/HitBox.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/KillBox.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Physics/BarrelPlatform.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Physics/BarrelPush.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Physics/BoxPuller.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Physics/PushablePullableBox.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Projectile.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/ResetSpriteRotation.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/RespawnPoint.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/Shooter.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/SimpleHealth.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/SimpleHealthBarUI.cs
+Assets/2DPlatformController/Scripts/ExtraFeatures/SwimTrigger.cs
+Assets/2DPlatformController/Scripts/Inputs/SimpleCharacterInput.cs
+Assets/2DPlatformController/Scripts/Inputs/StandardMobileInput.cs
+Assets/2DPlatformController/Scripts/Inputs/SwimmingCharacterInput.cs
+Assets/2DPlatformController/Scripts/Inputs/TouchController.cs
+Assets/2DPlatformController/Scripts/Inputs/TouchControllerButton.cs
+Assets/2DPlatformController/Scripts/Platforms/BackAndForthPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/Brick.cs
+Assets/2DPlatformController/Scripts/Platforms/DecayingPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/FallingPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/Ladders/Ladder.cs
+Assets/2DPlatformController/Scripts/Platforms/Ladders/LadderCollider.cs
+Assets/2DPlatformController/Scripts/Platforms/Ladders/LadderControl.cs
+Assets/2DPlatformController/Scripts/Platforms/Ladders/TopStepPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/PassthroughPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/Ropes/Rope.cs
+Assets/2DPlatformController/Scripts/Platforms/Ropes/RopeCollider.cs
+Assets/2DPlatformController/Scripts/Platforms/Ropes/RopeControl.cs
+Assets/2DPlatformController/Scripts/Platforms/SlidingPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/SlipperyPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/SpringboardPlatform.cs
+Assets/2DPlatformController/Scripts/Platforms/UnBreakableBrick.cs
+Assets/2DPlatformController/Scripts/Platforms/UpAndDownPlatform.cs
+Assets/2DPlatformController/Scripts/Plugins/DirectionChecker.cs
+Assets/2DPlatformController/Scripts/Plugins/Platform.cs
+Assets/2DPlatformController/Scripts/Plugins/RaycastCharacterController.cs
+Assets/2DPlatformController/Scripts/Plugins/RaycastCharacterInput.cs
+Assets/2DPlatformController/Scripts/Plugins/SupportingClasses.cs
+Assets/2DPlatformController/Scripts/Utility/SetUpPhysics.cs
+Assets/2DPlatformController/ThirdParty/iTween.cs
+Assets/2DPlatformController/ThirdParty/StandardAssets/Joystick.cs
+Assets/game/prefeds/Bullet.cs
+Assets/game/prefeds/GunWeapon.cs
+Assets/game/ren/move.cs
+Assets/game/shoot.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
